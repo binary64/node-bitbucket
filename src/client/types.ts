@@ -3,7 +3,7 @@ import { RequestOptions } from '../endpoint/types'
 import { HTTPError } from '../error/types'
 import { Request, Response } from '../request/types'
 
-export { EndpointParams } from '../endpoint/types'
+export type { EndpointParams } from '../endpoint/types'
 
 export interface Options {
   [option: string]: any

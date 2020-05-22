@@ -1,6 +1,6 @@
 import { Headers, RequestOptions } from '../endpoint/types'
 
-export { Headers, RequestOptions } from '../endpoint/types'
+export type { Headers, RequestOptions } from '../endpoint/types'
 
 export abstract class HTTPError extends Error {
   public error!: any | undefined

@@ -5,7 +5,7 @@ import {
   Headers
 } from '../endpoint/types'
 
-export {
+export type {
   Endpoint,
   EndpointDefaults,
   EndpointOptions,
